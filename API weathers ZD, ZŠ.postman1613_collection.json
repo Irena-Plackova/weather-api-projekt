@@ -1,0 +1,1262 @@
+{
+	"info": {
+		"_postman_id": "b68fb5ba-51c9-4eab-8c66-cec7e35ed7a0",
+		"name": "API weathers ZD, ZŠ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34145623",
+		"_collection_link": "https://interstellar-space-73680.postman.co/workspace/a6b919d1-d196-4fc4-b1c8-193a5bee4a10/collection/34145623-b68fb5ba-51c9-4eab-8c66-cec7e35ed7a0?action=share&source=collection_link&creator=34145623"
+	},
+	"item": [
+		{
+			"name": "ZD,ZŠ, DESETINNE ČÍSLO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&appid=8b222900a28e1250420c1d6d8786aec5",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"3.0",
+						"onecall"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "33.44"
+						},
+						{
+							"key": "lon",
+							"value": "-94.04"
+						},
+						{
+							"key": "appid",
+							"value": "8b222900a28e1250420c1d6d8786aec5"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&appid=8b222900a28e1250420c1d6d8786aec5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&appid=8b222900a28e1250420c1d6d8786aec5",
+							"protocol": "https",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"3.0",
+								"onecall"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "33.44"
+								},
+								{
+									"key": "lon",
+									"value": "-94.04"
+								},
+								{
+									"key": "appid",
+									"value": "8b222900a28e1250420c1d6d8786aec5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "openresty"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Jun 2024 17:21:36 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "20375"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Cache-Key",
+							"value": "/data/3.0/onecall?lat=33.44&lon=-94.04"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"lat\": 33.44,\n    \"lon\": -94.04,\n    \"timezone\": \"America/Chicago\",\n    \"timezone_offset\": -18000,\n    \"current\": {\n        \"dt\": 1718990496,\n        \"sunrise\": 1718968017,\n        \"sunset\": 1719019747,\n        \"temp\": 305.44,\n        \"feels_like\": 308.31,\n        \"pressure\": 1022,\n        \"humidity\": 51,\n        \"dew_point\": 294.01,\n        \"uvi\": 10.11,\n        \"clouds\": 0,\n        \"visibility\": 10000,\n        \"wind_speed\": 2.68,\n        \"wind_deg\": 78,\n        \"wind_gust\": 5.36,\n        \"weather\": [\n            {\n                \"id\": 800,\n                \"main\": \"Clear\",\n                \"description\": \"clear sky\",\n                \"icon\": \"01d\"\n            }\n        ]\n    },\n    \"minutely\": [\n        {\n            \"dt\": 1718990520,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990580,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990640,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990700,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990760,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990820,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990880,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990940,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991000,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991060,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991120,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991180,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991240,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991300,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991360,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991420,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991480,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991540,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991600,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991660,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991720,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991780,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991840,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991900,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991960,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718992020,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718992080,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718992140,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718992200,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718992260,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718992320,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718992380,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718992440,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718992500,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718992560,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718992620,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718992680,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718992740,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718992800,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718992860,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718992920,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718992980,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718993040,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718993100,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718993160,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718993220,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718993280,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718993340,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718993400,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718993460,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718993520,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718993580,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718993640,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718993700,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718993760,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718993820,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718993880,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718993940,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718994000,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718994060,\n            \"precipitation\": 0\n        }\n    ],\n    \"hourly\": [\n        {\n            \"dt\": 1718989200,\n            \"temp\": 305.44,\n            \"feels_like\": 308.31,\n            \"pressure\": 1022,\n            \"humidity\": 51,\n            \"dew_point\": 294.01,\n            \"uvi\": 10.11,\n            \"clouds\": 0,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.25,\n            \"wind_deg\": 105,\n            \"wind_gust\": 3.06,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1718992800,\n            \"temp\": 305.05,\n            \"feels_like\": 307.33,\n            \"pressure\": 1022,\n            \"humidity\": 50,\n            \"dew_point\": 293.34,\n            \"uvi\": 11.47,\n            \"clouds\": 9,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.07,\n            \"wind_deg\": 114,\n            \"wind_gust\": 3.21,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1718996400,\n            \"temp\": 304.95,\n            \"feels_like\": 306.92,\n            \"pressure\": 1021,\n            \"humidity\": 49,\n            \"dew_point\": 292.92,\n            \"uvi\": 11.1,\n            \"clouds\": 0,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.53,\n            \"wind_deg\": 124,\n            \"wind_gust\": 3.04,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719000000,\n            \"temp\": 305.09,\n            \"feels_like\": 306.5,\n            \"pressure\": 1020,\n            \"humidity\": 46,\n            \"dew_point\": 292.03,\n            \"uvi\": 8.98,\n            \"clouds\": 0,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.15,\n            \"wind_deg\": 147,\n            \"wind_gust\": 2.76,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719003600,\n            \"temp\": 305.28,\n            \"feels_like\": 306.19,\n            \"pressure\": 1019,\n            \"humidity\": 43,\n            \"dew_point\": 291.13,\n            \"uvi\": 6.37,\n            \"clouds\": 0,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.06,\n            \"wind_deg\": 151,\n            \"wind_gust\": 2.6,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719007200,\n            \"temp\": 305.41,\n            \"feels_like\": 306,\n            \"pressure\": 1018,\n            \"humidity\": 41,\n            \"dew_point\": 290.75,\n            \"uvi\": 3.65,\n            \"clouds\": 1,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.05,\n            \"wind_deg\": 125,\n            \"wind_gust\": 2.37,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719010800,\n            \"temp\": 305.27,\n            \"feels_like\": 306.17,\n            \"pressure\": 1017,\n            \"humidity\": 43,\n            \"dew_point\": 291.35,\n            \"uvi\": 1.76,\n            \"clouds\": 6,\n            \"visibility\": 10000,\n            \"wind_speed\": 0.85,\n            \"wind_deg\": 113,\n            \"wind_gust\": 2.06,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719014400,\n            \"temp\": 304.32,\n            \"feels_like\": 307.14,\n            \"pressure\": 1017,\n            \"humidity\": 55,\n            \"dew_point\": 294.48,\n            \"uvi\": 0.56,\n            \"clouds\": 8,\n            \"visibility\": 10000,\n            \"wind_speed\": 0.54,\n            \"wind_deg\": 19,\n            \"wind_gust\": 0.74,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719018000,\n            \"temp\": 300.73,\n            \"feels_like\": 301.81,\n            \"pressure\": 1017,\n            \"humidity\": 58,\n            \"dew_point\": 291.91,\n            \"uvi\": 0,\n            \"clouds\": 7,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.07,\n            \"wind_deg\": 357,\n            \"wind_gust\": 1.11,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719021600,\n            \"temp\": 298.98,\n            \"feels_like\": 299.11,\n            \"pressure\": 1017,\n            \"humidity\": 57,\n            \"dew_point\": 289.9,\n            \"uvi\": 0,\n            \"clouds\": 8,\n            \"visibility\": 10000,\n            \"wind_speed\": 0.53,\n            \"wind_deg\": 34,\n            \"wind_gust\": 0.69,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719025200,\n            \"temp\": 298.67,\n            \"feels_like\": 298.74,\n            \"pressure\": 1018,\n            \"humidity\": 56,\n            \"dew_point\": 289.26,\n            \"uvi\": 0,\n            \"clouds\": 9,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.47,\n            \"wind_deg\": 121,\n            \"wind_gust\": 1.49,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719028800,\n            \"temp\": 297.62,\n            \"feels_like\": 297.69,\n            \"pressure\": 1018,\n            \"humidity\": 60,\n            \"dew_point\": 289.43,\n            \"uvi\": 0,\n            \"clouds\": 24,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.36,\n            \"wind_deg\": 144,\n            \"wind_gust\": 2.5,\n            \"weather\": [\n                {\n                    \"id\": 801,\n                    \"main\": \"Clouds\",\n                    \"description\": \"few clouds\",\n                    \"icon\": \"02n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719032400,\n            \"temp\": 296.8,\n            \"feels_like\": 296.92,\n            \"pressure\": 1018,\n            \"humidity\": 65,\n            \"dew_point\": 289.86,\n            \"uvi\": 0,\n            \"clouds\": 40,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.19,\n            \"wind_deg\": 166,\n            \"wind_gust\": 2.22,\n            \"weather\": [\n                {\n                    \"id\": 802,\n                    \"main\": \"Clouds\",\n                    \"description\": \"scattered clouds\",\n                    \"icon\": \"03n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719036000,\n            \"temp\": 296.75,\n            \"feels_like\": 296.92,\n            \"pressure\": 1018,\n            \"humidity\": 67,\n            \"dew_point\": 290.4,\n            \"uvi\": 0,\n            \"clouds\": 50,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.09,\n            \"wind_deg\": 166,\n            \"wind_gust\": 2.25,\n            \"weather\": [\n                {\n                    \"id\": 802,\n                    \"main\": \"Clouds\",\n                    \"description\": \"scattered clouds\",\n                    \"icon\": \"03n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719039600,\n            \"temp\": 297.08,\n            \"feels_like\": 297.36,\n            \"pressure\": 1018,\n            \"humidity\": 70,\n            \"dew_point\": 291.33,\n            \"uvi\": 0,\n            \"clouds\": 83,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.16,\n            \"wind_deg\": 190,\n            \"wind_gust\": 2.41,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719043200,\n            \"temp\": 296.33,\n            \"feels_like\": 296.71,\n            \"pressure\": 1017,\n            \"humidity\": 77,\n            \"dew_point\": 292.2,\n            \"uvi\": 0,\n            \"clouds\": 62,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.96,\n            \"wind_deg\": 210,\n            \"wind_gust\": 1.95,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719046800,\n            \"temp\": 296.04,\n            \"feels_like\": 296.5,\n            \"pressure\": 1017,\n            \"humidity\": 81,\n            \"dew_point\": 292.71,\n            \"uvi\": 0,\n            \"clouds\": 67,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.15,\n            \"wind_deg\": 215,\n            \"wind_gust\": 2.38,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719050400,\n            \"temp\": 295.99,\n            \"feels_like\": 296.5,\n            \"pressure\": 1018,\n            \"humidity\": 83,\n            \"dew_point\": 292.99,\n            \"uvi\": 0,\n            \"clouds\": 74,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.96,\n            \"wind_deg\": 224,\n            \"wind_gust\": 2.14,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719054000,\n            \"temp\": 295.82,\n            \"feels_like\": 296.31,\n            \"pressure\": 1018,\n            \"humidity\": 83,\n            \"dew_point\": 292.91,\n            \"uvi\": 0,\n            \"clouds\": 78,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.81,\n            \"wind_deg\": 223,\n            \"wind_gust\": 1.95,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719057600,\n            \"temp\": 296.48,\n            \"feels_like\": 297.04,\n            \"pressure\": 1018,\n            \"humidity\": 83,\n            \"dew_point\": 293.41,\n            \"uvi\": 0.2,\n            \"clouds\": 81,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.71,\n            \"wind_deg\": 235,\n            \"wind_gust\": 2.09,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719061200,\n            \"temp\": 298.61,\n            \"feels_like\": 299.2,\n            \"pressure\": 1019,\n            \"humidity\": 76,\n            \"dew_point\": 294.18,\n            \"uvi\": 1.01,\n            \"clouds\": 12,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.79,\n            \"wind_deg\": 251,\n            \"wind_gust\": 2.84,\n            \"weather\": [\n                {\n                    \"id\": 801,\n                    \"main\": \"Clouds\",\n                    \"description\": \"few clouds\",\n                    \"icon\": \"02d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719064800,\n            \"temp\": 300.66,\n            \"feels_like\": 302.9,\n            \"pressure\": 1019,\n            \"humidity\": 70,\n            \"dew_point\": 294.75,\n            \"uvi\": 2.72,\n            \"clouds\": 7,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.94,\n            \"wind_deg\": 257,\n            \"wind_gust\": 2.96,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719068400,\n            \"temp\": 302.47,\n            \"feels_like\": 305.62,\n            \"pressure\": 1019,\n            \"humidity\": 65,\n            \"dew_point\": 295.18,\n            \"uvi\": 5.25,\n            \"clouds\": 6,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.32,\n            \"wind_deg\": 257,\n            \"wind_gust\": 3.45,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719072000,\n            \"temp\": 304.11,\n            \"feels_like\": 307.67,\n            \"pressure\": 1018,\n            \"humidity\": 59,\n            \"dew_point\": 295.09,\n            \"uvi\": 8.06,\n            \"clouds\": 7,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.32,\n            \"wind_deg\": 248,\n            \"wind_gust\": 3.38,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719075600,\n            \"temp\": 305.6,\n            \"feels_like\": 308.62,\n            \"pressure\": 1017,\n            \"humidity\": 51,\n            \"dew_point\": 294.37,\n            \"uvi\": 10.38,\n            \"clouds\": 14,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.3,\n            \"wind_deg\": 220,\n            \"wind_gust\": 3.52,\n            \"weather\": [\n                {\n                    \"id\": 801,\n                    \"main\": \"Clouds\",\n                    \"description\": \"few clouds\",\n                    \"icon\": \"02d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719079200,\n            \"temp\": 306.65,\n            \"feels_like\": 309.28,\n            \"pressure\": 1016,\n            \"humidity\": 46,\n            \"dew_point\": 293.56,\n            \"uvi\": 11.58,\n            \"clouds\": 27,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.15,\n            \"wind_deg\": 205,\n            \"wind_gust\": 3.47,\n            \"weather\": [\n                {\n                    \"id\": 802,\n                    \"main\": \"Clouds\",\n                    \"description\": \"scattered clouds\",\n                    \"icon\": \"03d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719082800,\n            \"temp\": 306.8,\n            \"feels_like\": 309.29,\n            \"pressure\": 1015,\n            \"humidity\": 45,\n            \"dew_point\": 293.58,\n            \"uvi\": 10.07,\n            \"clouds\": 78,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.06,\n            \"wind_deg\": 203,\n            \"wind_gust\": 3.33,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719086400,\n            \"temp\": 304.56,\n            \"feels_like\": 308.62,\n            \"pressure\": 1015,\n            \"humidity\": 59,\n            \"dew_point\": 295.71,\n            \"uvi\": 4.67,\n            \"clouds\": 89,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.21,\n            \"wind_deg\": 176,\n            \"wind_gust\": 3.85,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719090000,\n            \"temp\": 303.13,\n            \"feels_like\": 306.35,\n            \"pressure\": 1015,\n            \"humidity\": 62,\n            \"dew_point\": 295.07,\n            \"uvi\": 2.36,\n            \"clouds\": 93,\n            \"visibility\": 10000,\n            \"wind_speed\": 3.14,\n            \"wind_deg\": 160,\n            \"wind_gust\": 4.61,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719093600,\n            \"temp\": 302.54,\n            \"feels_like\": 305.57,\n            \"pressure\": 1014,\n            \"humidity\": 64,\n            \"dew_point\": 295.18,\n            \"uvi\": 1.33,\n            \"clouds\": 96,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.45,\n            \"wind_deg\": 171,\n            \"wind_gust\": 3.48,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719097200,\n            \"temp\": 302.48,\n            \"feels_like\": 305.27,\n            \"pressure\": 1014,\n            \"humidity\": 63,\n            \"dew_point\": 294.7,\n            \"uvi\": 0.67,\n            \"clouds\": 96,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.79,\n            \"wind_deg\": 189,\n            \"wind_gust\": 1.89,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719100800,\n            \"temp\": 301.59,\n            \"feels_like\": 303.95,\n            \"pressure\": 1014,\n            \"humidity\": 65,\n            \"dew_point\": 294.49,\n            \"uvi\": 0.34,\n            \"clouds\": 97,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.92,\n            \"wind_deg\": 226,\n            \"wind_gust\": 2.29,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719104400,\n            \"temp\": 300.95,\n            \"feels_like\": 303.08,\n            \"pressure\": 1014,\n            \"humidity\": 67,\n            \"dew_point\": 294.41,\n            \"uvi\": 0,\n            \"clouds\": 100,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.91,\n            \"wind_deg\": 262,\n            \"wind_gust\": 1.9,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719108000,\n            \"temp\": 301.23,\n            \"feels_like\": 303.07,\n            \"pressure\": 1014,\n            \"humidity\": 63,\n            \"dew_point\": 293.77,\n            \"uvi\": 0,\n            \"clouds\": 100,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.79,\n            \"wind_deg\": 272,\n            \"wind_gust\": 1.84,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719111600,\n            \"temp\": 301.16,\n            \"feels_like\": 302.96,\n            \"pressure\": 1014,\n            \"humidity\": 63,\n            \"dew_point\": 293.53,\n            \"uvi\": 0,\n            \"clouds\": 100,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.62,\n            \"wind_deg\": 261,\n            \"wind_gust\": 1.75,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719115200,\n            \"temp\": 300.26,\n            \"feels_like\": 301.77,\n            \"pressure\": 1014,\n            \"humidity\": 65,\n            \"dew_point\": 293.08,\n            \"uvi\": 0,\n            \"clouds\": 91,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.88,\n            \"wind_deg\": 247,\n            \"wind_gust\": 2.03,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719118800,\n            \"temp\": 298.58,\n            \"feels_like\": 299.01,\n            \"pressure\": 1014,\n            \"humidity\": 70,\n            \"dew_point\": 292.85,\n            \"uvi\": 0,\n            \"clouds\": 74,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.82,\n            \"wind_deg\": 256,\n            \"wind_gust\": 1.76,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719122400,\n            \"temp\": 298.2,\n            \"feels_like\": 298.64,\n            \"pressure\": 1014,\n            \"humidity\": 72,\n            \"dew_point\": 292.82,\n            \"uvi\": 0,\n            \"clouds\": 63,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.19,\n            \"wind_deg\": 244,\n            \"wind_gust\": 2.24,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719126000,\n            \"temp\": 297.74,\n            \"feels_like\": 298.19,\n            \"pressure\": 1014,\n            \"humidity\": 74,\n            \"dew_point\": 292.94,\n            \"uvi\": 0,\n            \"clouds\": 8,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.1,\n            \"wind_deg\": 218,\n            \"wind_gust\": 2.17,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719129600,\n            \"temp\": 296.99,\n            \"feels_like\": 297.44,\n            \"pressure\": 1014,\n            \"humidity\": 77,\n            \"dew_point\": 292.78,\n            \"uvi\": 0,\n            \"clouds\": 9,\n            \"visibility\": 10000,\n            \"wind_speed\": 3.47,\n            \"wind_deg\": 185,\n            \"wind_gust\": 6.86,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719133200,\n            \"temp\": 296.54,\n            \"feels_like\": 296.95,\n            \"pressure\": 1014,\n            \"humidity\": 77,\n            \"dew_point\": 292.4,\n            \"uvi\": 0,\n            \"clouds\": 9,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.64,\n            \"wind_deg\": 208,\n            \"wind_gust\": 5.17,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719136800,\n            \"temp\": 296.74,\n            \"feels_like\": 297.14,\n            \"pressure\": 1014,\n            \"humidity\": 76,\n            \"dew_point\": 292.31,\n            \"uvi\": 0,\n            \"clouds\": 7,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.45,\n            \"wind_deg\": 212,\n            \"wind_gust\": 3.48,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719140400,\n            \"temp\": 296.5,\n            \"feels_like\": 296.93,\n            \"pressure\": 1014,\n            \"humidity\": 78,\n            \"dew_point\": 292.48,\n            \"uvi\": 0,\n            \"clouds\": 6,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.55,\n            \"wind_deg\": 203,\n            \"wind_gust\": 4.06,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719144000,\n            \"temp\": 296.92,\n            \"feels_like\": 297.47,\n            \"pressure\": 1014,\n            \"humidity\": 81,\n            \"dew_point\": 293.42,\n            \"uvi\": 0.23,\n            \"clouds\": 5,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.31,\n            \"wind_deg\": 216,\n            \"wind_gust\": 4.51,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719147600,\n            \"temp\": 299.06,\n            \"feels_like\": 299.66,\n            \"pressure\": 1015,\n            \"humidity\": 75,\n            \"dew_point\": 294.45,\n            \"uvi\": 1.03,\n            \"clouds\": 1,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.32,\n            \"wind_deg\": 240,\n            \"wind_gust\": 4.49,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719151200,\n            \"temp\": 300.87,\n            \"feels_like\": 303.05,\n            \"pressure\": 1015,\n            \"humidity\": 68,\n            \"dew_point\": 294.63,\n            \"uvi\": 2.71,\n            \"clouds\": 0,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.57,\n            \"wind_deg\": 254,\n            \"wind_gust\": 4.07,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719154800,\n            \"temp\": 302.81,\n            \"feels_like\": 305.72,\n            \"pressure\": 1015,\n            \"humidity\": 62,\n            \"dew_point\": 294.88,\n            \"uvi\": 5.25,\n            \"clouds\": 0,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.47,\n            \"wind_deg\": 255,\n            \"wind_gust\": 3.79,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719158400,\n            \"temp\": 304.67,\n            \"feels_like\": 308.07,\n            \"pressure\": 1015,\n            \"humidity\": 56,\n            \"dew_point\": 294.97,\n            \"uvi\": 8.05,\n            \"clouds\": 0,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.54,\n            \"wind_deg\": 254,\n            \"wind_gust\": 3.66,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"pop\": 0\n        }\n    ],\n    \"daily\": [\n        {\n            \"dt\": 1718992800,\n            \"sunrise\": 1718968017,\n            \"sunset\": 1719019747,\n            \"moonrise\": 1719020640,\n            \"moonset\": 1718965200,\n            \"moon_phase\": 0.5,\n            \"summary\": \"Expect a day of partly cloudy with clear spells\",\n            \"temp\": {\n                \"day\": 305.05,\n                \"min\": 293.42,\n                \"max\": 305.44,\n                \"night\": 297.62,\n                \"eve\": 304.32,\n                \"morn\": 294.32\n            },\n            \"feels_like\": {\n                \"day\": 307.33,\n                \"night\": 297.69,\n                \"eve\": 307.14,\n                \"morn\": 294.71\n            },\n            \"pressure\": 1022,\n            \"humidity\": 50,\n            \"dew_point\": 293.34,\n            \"wind_speed\": 2.83,\n            \"wind_deg\": 96,\n            \"wind_gust\": 4.31,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"clouds\": 9,\n            \"pop\": 0,\n            \"uvi\": 11.47\n        },\n        {\n            \"dt\": 1719079200,\n            \"sunrise\": 1719054430,\n            \"sunset\": 1719106158,\n            \"moonrise\": 1719110460,\n            \"moonset\": 1719055140,\n            \"moon_phase\": 0.52,\n            \"summary\": \"Expect a day of partly cloudy with clear spells\",\n            \"temp\": {\n                \"day\": 306.65,\n                \"min\": 295.82,\n                \"max\": 306.8,\n                \"night\": 300.26,\n                \"eve\": 301.59,\n                \"morn\": 296.48\n            },\n            \"feels_like\": {\n                \"day\": 309.28,\n                \"night\": 301.77,\n                \"eve\": 303.95,\n                \"morn\": 297.04\n            },\n            \"pressure\": 1016,\n            \"humidity\": 46,\n            \"dew_point\": 293.56,\n            \"wind_speed\": 3.14,\n            \"wind_deg\": 160,\n            \"wind_gust\": 4.61,\n            \"weather\": [\n                {\n                    \"id\": 802,\n                    \"main\": \"Clouds\",\n                    \"description\": \"scattered clouds\",\n                    \"icon\": \"03d\"\n                }\n            ],\n            \"clouds\": 27,\n            \"pop\": 0,\n            \"uvi\": 11.58\n        },\n        {\n            \"dt\": 1719165600,\n            \"sunrise\": 1719140845,\n            \"sunset\": 1719192567,\n            \"moonrise\": 1719199800,\n            \"moonset\": 1719145500,\n            \"moon_phase\": 0.56,\n            \"summary\": \"Expect a day of partly cloudy with clear spells\",\n            \"temp\": {\n                \"day\": 307.41,\n                \"min\": 296.5,\n                \"max\": 309.2,\n                \"night\": 300.17,\n                \"eve\": 305.26,\n                \"morn\": 296.92\n            },\n            \"feels_like\": {\n                \"day\": 310.47,\n                \"night\": 301.87,\n                \"eve\": 310.79,\n                \"morn\": 297.47\n            },\n            \"pressure\": 1014,\n            \"humidity\": 45,\n            \"dew_point\": 294.01,\n            \"wind_speed\": 3.47,\n            \"wind_deg\": 185,\n            \"wind_gust\": 6.86,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"clouds\": 0,\n            \"pop\": 0,\n            \"uvi\": 11.55\n        },\n        {\n            \"dt\": 1719252000,\n            \"sunrise\": 1719227261,\n            \"sunset\": 1719278975,\n            \"moonrise\": 1719288780,\n            \"moonset\": 1719236100,\n            \"moon_phase\": 0.6,\n            \"summary\": \"You can expect clear sky in the morning, with partly cloudy in the afternoon\",\n            \"temp\": {\n                \"day\": 308.25,\n                \"min\": 296.4,\n                \"max\": 310.13,\n                \"night\": 302.67,\n                \"eve\": 303.93,\n                \"morn\": 296.92\n            },\n            \"feels_like\": {\n                \"day\": 311.51,\n                \"night\": 304.41,\n                \"eve\": 305.79,\n                \"morn\": 297.44\n            },\n            \"pressure\": 1013,\n            \"humidity\": 43,\n            \"dew_point\": 293.84,\n            \"wind_speed\": 3.07,\n            \"wind_deg\": 128,\n            \"wind_gust\": 4.56,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ],\n            \"clouds\": 0,\n            \"pop\": 0,\n            \"uvi\": 11.52\n        },\n        {\n            \"dt\": 1719338400,\n            \"sunrise\": 1719313679,\n            \"sunset\": 1719365382,\n            \"moonrise\": 1719377340,\n            \"moonset\": 1719326820,\n            \"moon_phase\": 0.63,\n            \"summary\": \"Expect a day of partly cloudy with clear spells\",\n            \"temp\": {\n                \"day\": 307.66,\n                \"min\": 297.98,\n                \"max\": 309.36,\n                \"night\": 301.33,\n                \"eve\": 305.94,\n                \"morn\": 298.3\n            },\n            \"feels_like\": {\n                \"day\": 311.3,\n                \"night\": 303.11,\n                \"eve\": 309.02,\n                \"morn\": 299.06\n            },\n            \"pressure\": 1011,\n            \"humidity\": 46,\n            \"dew_point\": 294.41,\n            \"wind_speed\": 5.06,\n            \"wind_deg\": 207,\n            \"wind_gust\": 8.62,\n            \"weather\": [\n                {\n                    \"id\": 801,\n                    \"main\": \"Clouds\",\n                    \"description\": \"few clouds\",\n                    \"icon\": \"02d\"\n                }\n            ],\n            \"clouds\": 13,\n            \"pop\": 0,\n            \"uvi\": 0.23\n        },\n        {\n            \"dt\": 1719424800,\n            \"sunrise\": 1719400097,\n            \"sunset\": 1719451786,\n            \"moonrise\": 0,\n            \"moonset\": 1719417420,\n            \"moon_phase\": 0.67,\n            \"summary\": \"Expect a day of partly cloudy with rain\",\n            \"temp\": {\n                \"day\": 304.03,\n                \"min\": 296.87,\n                \"max\": 304.89,\n                \"night\": 300.67,\n                \"eve\": 302.8,\n                \"morn\": 296.87\n            },\n            \"feels_like\": {\n                \"day\": 309.29,\n                \"night\": 304.33,\n                \"eve\": 308.51,\n                \"morn\": 297.78\n            },\n            \"pressure\": 1010,\n            \"humidity\": 66,\n            \"dew_point\": 297.11,\n            \"wind_speed\": 5.45,\n            \"wind_deg\": 238,\n            \"wind_gust\": 12.76,\n            \"weather\": [\n                {\n                    \"id\": 501,\n                    \"main\": \"Rain\",\n                    \"description\": \"moderate rain\",\n                    \"icon\": \"10d\"\n                }\n            ],\n            \"clouds\": 100,\n            \"pop\": 1,\n            \"rain\": 17.75,\n            \"uvi\": 1\n        },\n        {\n            \"dt\": 1719511200,\n            \"sunrise\": 1719486517,\n            \"sunset\": 1719538190,\n            \"moonrise\": 1719465600,\n            \"moonset\": 1719507900,\n            \"moon_phase\": 0.71,\n            \"summary\": \"Expect a day of partly cloudy with rain\",\n            \"temp\": {\n                \"day\": 306.29,\n                \"min\": 297.27,\n                \"max\": 308.29,\n                \"night\": 300.81,\n                \"eve\": 306.86,\n                \"morn\": 297.28\n            },\n            \"feels_like\": {\n                \"day\": 313.29,\n                \"night\": 303.06,\n                \"eve\": 312.27,\n                \"morn\": 298.2\n            },\n            \"pressure\": 1009,\n            \"humidity\": 61,\n            \"dew_point\": 297.74,\n            \"wind_speed\": 2.9,\n            \"wind_deg\": 280,\n            \"wind_gust\": 7.4,\n            \"weather\": [\n                {\n                    \"id\": 500,\n                    \"main\": \"Rain\",\n                    \"description\": \"light rain\",\n                    \"icon\": \"10d\"\n                }\n            ],\n            \"clouds\": 6,\n            \"pop\": 0.34,\n            \"rain\": 1.23,\n            \"uvi\": 1\n        },\n        {\n            \"dt\": 1719597600,\n            \"sunrise\": 1719572938,\n            \"sunset\": 1719624592,\n            \"moonrise\": 1719553740,\n            \"moonset\": 1719598320,\n            \"moon_phase\": 0.75,\n            \"summary\": \"Expect a day of partly cloudy with rain\",\n            \"temp\": {\n                \"day\": 307.76,\n                \"min\": 297.46,\n                \"max\": 307.76,\n                \"night\": 300.34,\n                \"eve\": 305.15,\n                \"morn\": 297.46\n            },\n            \"feels_like\": {\n                \"day\": 312.55,\n                \"night\": 302.71,\n                \"eve\": 309.63,\n                \"morn\": 298.35\n            },\n            \"pressure\": 1008,\n            \"humidity\": 49,\n            \"dew_point\": 295.73,\n            \"wind_speed\": 3.61,\n            \"wind_deg\": 198,\n            \"wind_gust\": 8.47,\n            \"weather\": [\n                {\n                    \"id\": 500,\n                    \"main\": \"Rain\",\n                    \"description\": \"light rain\",\n                    \"icon\": \"10d\"\n                }\n            ],\n            \"clouds\": 25,\n            \"pop\": 0.2,\n            \"rain\": 0.33,\n            \"uvi\": 1\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "https://api.openweathermap.org/data/3.0/onecall?lat=49,32&lon=17,56&appid=8b222900a28e1250420c1d6d8786aec5",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "8b222900a28e1250420c1d6d8786aec5",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/3.0/onecall?lat=49,32&lon=17,56&appid=8b222900a28e1250420c1d6d8786aec5",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"3.0",
+						"onecall"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "49,32"
+						},
+						{
+							"key": "lon",
+							"value": "17,56"
+						},
+						{
+							"key": "appid",
+							"value": "8b222900a28e1250420c1d6d8786aec5"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.openweathermap.org/data/3.0/onecall/timemachine?lat=49.835556&lon=18.2925&dt=1718956800&appid=8b222900a28e1250420c1d6d8786aec5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.openweathermap.org/data/3.0/onecall/timemachine?lat=49.835556&lon=18.2925&dt=1718956800&appid=8b222900a28e1250420c1d6d8786aec5",
+							"protocol": "https",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"3.0",
+								"onecall",
+								"timemachine"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "49.835556"
+								},
+								{
+									"key": "lon",
+									"value": "18.2925"
+								},
+								{
+									"key": "dt",
+									"value": "1718956800"
+								},
+								{
+									"key": "appid",
+									"value": "8b222900a28e1250420c1d6d8786aec5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "openresty"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 20 Jun 2024 17:46:43 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "398"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Cache-Key",
+							"value": "/data/3.0/onecall/timemachine?dt=1718956800&lat=49.84&lon=18.29"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"lat\": 49.8356,\n    \"lon\": 18.2925,\n    \"timezone\": \"Europe/Prague\",\n    \"timezone_offset\": 7200,\n    \"data\": [\n        {\n            \"dt\": 1718956800,\n            \"sunrise\": 1718937504,\n            \"sunset\": 1718996333,\n            \"temp\": 297.84,\n            \"feels_like\": 297.96,\n            \"pressure\": 1017,\n            \"humidity\": 61,\n            \"dew_point\": 289.82,\n            \"uvi\": 4.84,\n            \"clouds\": 5,\n            \"visibility\": 10000,\n            \"wind_speed\": 0.55,\n            \"wind_deg\": 195,\n            \"wind_gust\": 1.94,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ]\n        }\n    ]\n}"
+				},
+				{
+					"name": "https://api.openweathermap.org/data/3.0/onecall/timemachine?lat=49.835556&lon=18.2925&dt=1718956800&appid=8b222900a28e1250420c1d6d8786aec5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.openweathermap.org/data/3.0/onecall/timemachine?lat=49.835556&lon=18.2925&dt=1718956800&appid=8b222900a28e1250420c1d6d8786aec5",
+							"protocol": "https",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"3.0",
+								"onecall",
+								"timemachine"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "49.835556"
+								},
+								{
+									"key": "lon",
+									"value": "18.2925"
+								},
+								{
+									"key": "dt",
+									"value": "1718956800"
+								},
+								{
+									"key": "appid",
+									"value": "8b222900a28e1250420c1d6d8786aec5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "openresty"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 20 Jun 2024 17:46:43 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "398"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Cache-Key",
+							"value": "/data/3.0/onecall/timemachine?dt=1718956800&lat=49.84&lon=18.29"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"lat\": 49.8356,\n    \"lon\": 18.2925,\n    \"timezone\": \"Europe/Prague\",\n    \"timezone_offset\": 7200,\n    \"data\": [\n        {\n            \"dt\": 1718956800,\n            \"sunrise\": 1718937504,\n            \"sunset\": 1718996333,\n            \"temp\": 297.84,\n            \"feels_like\": 297.96,\n            \"pressure\": 1017,\n            \"humidity\": 61,\n            \"dew_point\": 289.82,\n            \"uvi\": 4.84,\n            \"clouds\": 5,\n            \"visibility\": 10000,\n            \"wind_speed\": 0.55,\n            \"wind_deg\": 195,\n            \"wind_gust\": 1.94,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ]\n        }\n    ]\n}"
+				},
+				{
+					"name": "https://api.openweathermap.org/data/3.0/onecall?lat=49,32&lon=17,56&appid=8b222900a28e1250420c1d6d8786aec5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.openweathermap.org/data/3.0/onecall?lat=49,32&lon=17,56&appid=8b222900a28e1250420c1d6d8786aec5",
+							"protocol": "https",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"3.0",
+								"onecall"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "49,32"
+								},
+								{
+									"key": "lon",
+									"value": "17,56"
+								},
+								{
+									"key": "appid",
+									"value": "8b222900a28e1250420c1d6d8786aec5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "openresty"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Jun 2024 16:46:35 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "21086"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Cache-Key",
+							"value": "/data/3.0/onecall?lat=49.32&lon=17.56"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"lat\": 49.32,\n    \"lon\": 17.56,\n    \"timezone\": \"Europe/Prague\",\n    \"timezone_offset\": 7200,\n    \"current\": {\n        \"dt\": 1718988395,\n        \"sunrise\": 1718937835,\n        \"sunset\": 1718996354,\n        \"temp\": 302.19,\n        \"feels_like\": 305.07,\n        \"pressure\": 1011,\n        \"humidity\": 65,\n        \"dew_point\": 294.94,\n        \"uvi\": 0.49,\n        \"clouds\": 49,\n        \"visibility\": 10000,\n        \"wind_speed\": 4.83,\n        \"wind_deg\": 153,\n        \"wind_gust\": 10.48,\n        \"weather\": [\n            {\n                \"id\": 802,\n                \"main\": \"Clouds\",\n                \"description\": \"scattered clouds\",\n                \"icon\": \"03d\"\n            }\n        ]\n    },\n    \"minutely\": [\n        {\n            \"dt\": 1718988420,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718988480,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718988540,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718988600,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718988660,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718988720,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718988780,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718988840,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718988900,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718988960,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718989020,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718989080,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718989140,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718989200,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718989260,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718989320,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718989380,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718989440,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718989500,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718989560,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718989620,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718989680,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718989740,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718989800,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718989860,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718989920,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718989980,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990040,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990100,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990160,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990220,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990280,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990340,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990400,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990460,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990520,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990580,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990640,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990700,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990760,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990820,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990880,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718990940,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991000,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991060,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991120,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991180,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991240,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991300,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991360,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991420,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991480,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991540,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991600,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991660,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991720,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991780,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991840,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991900,\n            \"precipitation\": 0\n        },\n        {\n            \"dt\": 1718991960,\n            \"precipitation\": 0\n        }\n    ],\n    \"hourly\": [\n        {\n            \"dt\": 1718985600,\n            \"temp\": 301.76,\n            \"feels_like\": 304.56,\n            \"pressure\": 1011,\n            \"humidity\": 67,\n            \"dew_point\": 295.03,\n            \"uvi\": 1.25,\n            \"clouds\": 50,\n            \"visibility\": 10000,\n            \"wind_speed\": 4.37,\n            \"wind_deg\": 164,\n            \"wind_gust\": 9.24,\n            \"weather\": [\n                {\n                    \"id\": 802,\n                    \"main\": \"Clouds\",\n                    \"description\": \"scattered clouds\",\n                    \"icon\": \"03d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1718989200,\n            \"temp\": 302.19,\n            \"feels_like\": 305.07,\n            \"pressure\": 1011,\n            \"humidity\": 65,\n            \"dew_point\": 294.94,\n            \"uvi\": 0.49,\n            \"clouds\": 49,\n            \"visibility\": 10000,\n            \"wind_speed\": 4.83,\n            \"wind_deg\": 153,\n            \"wind_gust\": 10.48,\n            \"weather\": [\n                {\n                    \"id\": 802,\n                    \"main\": \"Clouds\",\n                    \"description\": \"scattered clouds\",\n                    \"icon\": \"03d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1718992800,\n            \"temp\": 301.41,\n            \"feels_like\": 303.9,\n            \"pressure\": 1011,\n            \"humidity\": 67,\n            \"dew_point\": 294.7,\n            \"uvi\": 0.14,\n            \"clouds\": 49,\n            \"visibility\": 10000,\n            \"wind_speed\": 4.21,\n            \"wind_deg\": 142,\n            \"wind_gust\": 9.31,\n            \"weather\": [\n                {\n                    \"id\": 802,\n                    \"main\": \"Clouds\",\n                    \"description\": \"scattered clouds\",\n                    \"icon\": \"03d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1718996400,\n            \"temp\": 300.08,\n            \"feels_like\": 301.89,\n            \"pressure\": 1011,\n            \"humidity\": 70,\n            \"dew_point\": 294.14,\n            \"uvi\": 0,\n            \"clouds\": 69,\n            \"visibility\": 10000,\n            \"wind_speed\": 3.97,\n            \"wind_deg\": 129,\n            \"wind_gust\": 8.77,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04n\"\n                }\n            ],\n            \"pop\": 0.84\n        },\n        {\n            \"dt\": 1719000000,\n            \"temp\": 298.56,\n            \"feels_like\": 299.06,\n            \"pressure\": 1010,\n            \"humidity\": 73,\n            \"dew_point\": 293.37,\n            \"uvi\": 0,\n            \"clouds\": 79,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.85,\n            \"wind_deg\": 135,\n            \"wind_gust\": 5.03,\n            \"weather\": [\n                {\n                    \"id\": 500,\n                    \"main\": \"Rain\",\n                    \"description\": \"light rain\",\n                    \"icon\": \"10n\"\n                }\n            ],\n            \"pop\": 0.82,\n            \"rain\": {\n                \"1h\": 0.19\n            }\n        },\n        {\n            \"dt\": 1719003600,\n            \"temp\": 296.97,\n            \"feels_like\": 297.39,\n            \"pressure\": 1009,\n            \"humidity\": 76,\n            \"dew_point\": 292.49,\n            \"uvi\": 0,\n            \"clouds\": 80,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.7,\n            \"wind_deg\": 155,\n            \"wind_gust\": 7.85,\n            \"weather\": [\n                {\n                    \"id\": 500,\n                    \"main\": \"Rain\",\n                    \"description\": \"light rain\",\n                    \"icon\": \"10n\"\n                }\n            ],\n            \"pop\": 0.78,\n            \"rain\": {\n                \"1h\": 0.12\n            }\n        },\n        {\n            \"dt\": 1719007200,\n            \"temp\": 294.78,\n            \"feels_like\": 295.14,\n            \"pressure\": 1008,\n            \"humidity\": 82,\n            \"dew_point\": 291.16,\n            \"uvi\": 0,\n            \"clouds\": 85,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.24,\n            \"wind_deg\": 3,\n            \"wind_gust\": 1.96,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04n\"\n                }\n            ],\n            \"pop\": 0.73\n        },\n        {\n            \"dt\": 1719010800,\n            \"temp\": 293.62,\n            \"feels_like\": 293.99,\n            \"pressure\": 1009,\n            \"humidity\": 87,\n            \"dew_point\": 291.16,\n            \"uvi\": 0,\n            \"clouds\": 89,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.33,\n            \"wind_deg\": 348,\n            \"wind_gust\": 0.88,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04n\"\n                }\n            ],\n            \"pop\": 0.69\n        },\n        {\n            \"dt\": 1719014400,\n            \"temp\": 293.41,\n            \"feels_like\": 293.79,\n            \"pressure\": 1009,\n            \"humidity\": 88,\n            \"dew_point\": 291.1,\n            \"uvi\": 0,\n            \"clouds\": 80,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.7,\n            \"wind_deg\": 112,\n            \"wind_gust\": 2.37,\n            \"weather\": [\n                {\n                    \"id\": 500,\n                    \"main\": \"Rain\",\n                    \"description\": \"light rain\",\n                    \"icon\": \"10n\"\n                }\n            ],\n            \"pop\": 0.74,\n            \"rain\": {\n                \"1h\": 0.18\n            }\n        },\n        {\n            \"dt\": 1719018000,\n            \"temp\": 292.57,\n            \"feels_like\": 293.02,\n            \"pressure\": 1009,\n            \"humidity\": 94,\n            \"dew_point\": 291.2,\n            \"uvi\": 0,\n            \"clouds\": 43,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.1,\n            \"wind_deg\": 166,\n            \"wind_gust\": 3.86,\n            \"weather\": [\n                {\n                    \"id\": 500,\n                    \"main\": \"Rain\",\n                    \"description\": \"light rain\",\n                    \"icon\": \"10n\"\n                }\n            ],\n            \"pop\": 0.81,\n            \"rain\": {\n                \"1h\": 0.33\n            }\n        },\n        {\n            \"dt\": 1719021600,\n            \"temp\": 292.81,\n            \"feels_like\": 293.36,\n            \"pressure\": 1010,\n            \"humidity\": 97,\n            \"dew_point\": 292.08,\n            \"uvi\": 0,\n            \"clouds\": 60,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.55,\n            \"wind_deg\": 214,\n            \"wind_gust\": 5.07,\n            \"weather\": [\n                {\n                    \"id\": 500,\n                    \"main\": \"Rain\",\n                    \"description\": \"light rain\",\n                    \"icon\": \"10n\"\n                }\n            ],\n            \"pop\": 1,\n            \"rain\": {\n                \"1h\": 0.27\n            }\n        },\n        {\n            \"dt\": 1719025200,\n            \"temp\": 292.86,\n            \"feels_like\": 293.42,\n            \"pressure\": 1011,\n            \"humidity\": 97,\n            \"dew_point\": 292.07,\n            \"uvi\": 0,\n            \"clouds\": 73,\n            \"visibility\": 10000,\n            \"wind_speed\": 3.29,\n            \"wind_deg\": 284,\n            \"wind_gust\": 8.32,\n            \"weather\": [\n                {\n                    \"id\": 500,\n                    \"main\": \"Rain\",\n                    \"description\": \"light rain\",\n                    \"icon\": \"10d\"\n                }\n            ],\n            \"pop\": 1,\n            \"rain\": {\n                \"1h\": 0.26\n            }\n        },\n        {\n            \"dt\": 1719028800,\n            \"temp\": 292.53,\n            \"feels_like\": 293.03,\n            \"pressure\": 1011,\n            \"humidity\": 96,\n            \"dew_point\": 291.53,\n            \"uvi\": 0.11,\n            \"clouds\": 79,\n            \"visibility\": 10000,\n            \"wind_speed\": 3.5,\n            \"wind_deg\": 287,\n            \"wind_gust\": 7.42,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0.8\n        },\n        {\n            \"dt\": 1719032400,\n            \"temp\": 291.74,\n            \"feels_like\": 292.11,\n            \"pressure\": 1012,\n            \"humidity\": 94,\n            \"dew_point\": 290.33,\n            \"uvi\": 0.52,\n            \"clouds\": 83,\n            \"visibility\": 10000,\n            \"wind_speed\": 4.9,\n            \"wind_deg\": 281,\n            \"wind_gust\": 9.52,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0.8\n        },\n        {\n            \"dt\": 1719036000,\n            \"temp\": 291.03,\n            \"feels_like\": 291.28,\n            \"pressure\": 1013,\n            \"humidity\": 92,\n            \"dew_point\": 289.46,\n            \"uvi\": 1.33,\n            \"clouds\": 85,\n            \"visibility\": 10000,\n            \"wind_speed\": 5.1,\n            \"wind_deg\": 274,\n            \"wind_gust\": 10.13,\n            \"weather\": [\n                {\n                    \"id\": 500,\n                    \"main\": \"Rain\",\n                    \"description\": \"light rain\",\n                    \"icon\": \"10d\"\n                }\n            ],\n            \"pop\": 1,\n            \"rain\": {\n                \"1h\": 0.19\n            }\n        },\n        {\n            \"dt\": 1719039600,\n            \"temp\": 290.61,\n            \"feels_like\": 290.79,\n            \"pressure\": 1014,\n            \"humidity\": 91,\n            \"dew_point\": 288.82,\n            \"uvi\": 2.72,\n            \"clouds\": 100,\n            \"visibility\": 10000,\n            \"wind_speed\": 3.86,\n            \"wind_deg\": 293,\n            \"wind_gust\": 9.92,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0.46\n        },\n        {\n            \"dt\": 1719043200,\n            \"temp\": 291.33,\n            \"feels_like\": 291.4,\n            \"pressure\": 1014,\n            \"humidity\": 84,\n            \"dew_point\": 288.44,\n            \"uvi\": 2.85,\n            \"clouds\": 99,\n            \"visibility\": 10000,\n            \"wind_speed\": 3.52,\n            \"wind_deg\": 281,\n            \"wind_gust\": 7.16,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0.25\n        },\n        {\n            \"dt\": 1719046800,\n            \"temp\": 293.68,\n            \"feels_like\": 293.67,\n            \"pressure\": 1014,\n            \"humidity\": 72,\n            \"dew_point\": 288.25,\n            \"uvi\": 4.8,\n            \"clouds\": 71,\n            \"visibility\": 10000,\n            \"wind_speed\": 4.71,\n            \"wind_deg\": 286,\n            \"wind_gust\": 6.25,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0.13\n        },\n        {\n            \"dt\": 1719050400,\n            \"temp\": 294.98,\n            \"feels_like\": 294.92,\n            \"pressure\": 1013,\n            \"humidity\": 65,\n            \"dew_point\": 287.84,\n            \"uvi\": 6.9,\n            \"clouds\": 68,\n            \"visibility\": 10000,\n            \"wind_speed\": 3.65,\n            \"wind_deg\": 297,\n            \"wind_gust\": 5.92,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0.08\n        },\n        {\n            \"dt\": 1719054000,\n            \"temp\": 296.49,\n            \"feels_like\": 296.39,\n            \"pressure\": 1013,\n            \"humidity\": 58,\n            \"dew_point\": 287.55,\n            \"uvi\": 6.01,\n            \"clouds\": 67,\n            \"visibility\": 10000,\n            \"wind_speed\": 3.33,\n            \"wind_deg\": 306,\n            \"wind_gust\": 5.64,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0.04\n        },\n        {\n            \"dt\": 1719057600,\n            \"temp\": 297.3,\n            \"feels_like\": 297.18,\n            \"pressure\": 1012,\n            \"humidity\": 54,\n            \"dew_point\": 287.37,\n            \"uvi\": 6.24,\n            \"clouds\": 66,\n            \"visibility\": 10000,\n            \"wind_speed\": 3.94,\n            \"wind_deg\": 302,\n            \"wind_gust\": 5.38,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719061200,\n            \"temp\": 296.96,\n            \"feels_like\": 296.88,\n            \"pressure\": 1012,\n            \"humidity\": 57,\n            \"dew_point\": 287.66,\n            \"uvi\": 5.82,\n            \"clouds\": 84,\n            \"visibility\": 10000,\n            \"wind_speed\": 4.02,\n            \"wind_deg\": 315,\n            \"wind_gust\": 4.94,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719064800,\n            \"temp\": 297.49,\n            \"feels_like\": 297.34,\n            \"pressure\": 1012,\n            \"humidity\": 52,\n            \"dew_point\": 286.87,\n            \"uvi\": 3.91,\n            \"clouds\": 46,\n            \"visibility\": 10000,\n            \"wind_speed\": 3.66,\n            \"wind_deg\": 327,\n            \"wind_gust\": 5.42,\n            \"weather\": [\n                {\n                    \"id\": 802,\n                    \"main\": \"Clouds\",\n                    \"description\": \"scattered clouds\",\n                    \"icon\": \"03d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719068400,\n            \"temp\": 296.27,\n            \"feels_like\": 296.23,\n            \"pressure\": 1011,\n            \"humidity\": 61,\n            \"dew_point\": 288.05,\n            \"uvi\": 2.67,\n            \"clouds\": 48,\n            \"visibility\": 10000,\n            \"wind_speed\": 5.76,\n            \"wind_deg\": 337,\n            \"wind_gust\": 5.59,\n            \"weather\": [\n                {\n                    \"id\": 802,\n                    \"main\": \"Clouds\",\n                    \"description\": \"scattered clouds\",\n                    \"icon\": \"03d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719072000,\n            \"temp\": 295.19,\n            \"feels_like\": 295.17,\n            \"pressure\": 1011,\n            \"humidity\": 66,\n            \"dew_point\": 288.22,\n            \"uvi\": 1.36,\n            \"clouds\": 51,\n            \"visibility\": 10000,\n            \"wind_speed\": 4.33,\n            \"wind_deg\": 327,\n            \"wind_gust\": 6.72,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719075600,\n            \"temp\": 294.35,\n            \"feels_like\": 294.35,\n            \"pressure\": 1011,\n            \"humidity\": 70,\n            \"dew_point\": 288.3,\n            \"uvi\": 0.54,\n            \"clouds\": 40,\n            \"visibility\": 10000,\n            \"wind_speed\": 3.66,\n            \"wind_deg\": 343,\n            \"wind_gust\": 7.39,\n            \"weather\": [\n                {\n                    \"id\": 802,\n                    \"main\": \"Clouds\",\n                    \"description\": \"scattered clouds\",\n                    \"icon\": \"03d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719079200,\n            \"temp\": 292.47,\n            \"feels_like\": 292.44,\n            \"pressure\": 1011,\n            \"humidity\": 76,\n            \"dew_point\": 287.94,\n            \"uvi\": 0.15,\n            \"clouds\": 34,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.06,\n            \"wind_deg\": 356,\n            \"wind_gust\": 3.09,\n            \"weather\": [\n                {\n                    \"id\": 802,\n                    \"main\": \"Clouds\",\n                    \"description\": \"scattered clouds\",\n                    \"icon\": \"03d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719082800,\n            \"temp\": 290.25,\n            \"feels_like\": 290.1,\n            \"pressure\": 1012,\n            \"humidity\": 80,\n            \"dew_point\": 286.48,\n            \"uvi\": 0,\n            \"clouds\": 0,\n            \"visibility\": 10000,\n            \"wind_speed\": 0.98,\n            \"wind_deg\": 1,\n            \"wind_gust\": 0.92,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719086400,\n            \"temp\": 289.35,\n            \"feels_like\": 289.19,\n            \"pressure\": 1012,\n            \"humidity\": 83,\n            \"dew_point\": 286.25,\n            \"uvi\": 0,\n            \"clouds\": 0,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.38,\n            \"wind_deg\": 13,\n            \"wind_gust\": 2.37,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719090000,\n            \"temp\": 288.6,\n            \"feels_like\": 288.52,\n            \"pressure\": 1013,\n            \"humidity\": 89,\n            \"dew_point\": 286.51,\n            \"uvi\": 0,\n            \"clouds\": 1,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.54,\n            \"wind_deg\": 43,\n            \"wind_gust\": 3.02,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719093600,\n            \"temp\": 288.48,\n            \"feels_like\": 288.42,\n            \"pressure\": 1013,\n            \"humidity\": 90,\n            \"dew_point\": 286.4,\n            \"uvi\": 0,\n            \"clouds\": 2,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.29,\n            \"wind_deg\": 30,\n            \"wind_gust\": 2.62,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719097200,\n            \"temp\": 287.86,\n            \"feels_like\": 287.79,\n            \"pressure\": 1013,\n            \"humidity\": 92,\n            \"dew_point\": 286.18,\n            \"uvi\": 0,\n            \"clouds\": 4,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.22,\n            \"wind_deg\": 17,\n            \"wind_gust\": 2.31,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719100800,\n            \"temp\": 287.4,\n            \"feels_like\": 287.28,\n            \"pressure\": 1013,\n            \"humidity\": 92,\n            \"dew_point\": 285.81,\n            \"uvi\": 0,\n            \"clouds\": 5,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.09,\n            \"wind_deg\": 1,\n            \"wind_gust\": 2.07,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719104400,\n            \"temp\": 287.03,\n            \"feels_like\": 286.85,\n            \"pressure\": 1013,\n            \"humidity\": 91,\n            \"dew_point\": 285.33,\n            \"uvi\": 0,\n            \"clouds\": 98,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.99,\n            \"wind_deg\": 1,\n            \"wind_gust\": 2.06,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719108000,\n            \"temp\": 286.6,\n            \"feels_like\": 286.38,\n            \"pressure\": 1014,\n            \"humidity\": 91,\n            \"dew_point\": 284.88,\n            \"uvi\": 0,\n            \"clouds\": 99,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.16,\n            \"wind_deg\": 341,\n            \"wind_gust\": 2.15,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04n\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719111600,\n            \"temp\": 286.51,\n            \"feels_like\": 286.25,\n            \"pressure\": 1014,\n            \"humidity\": 90,\n            \"dew_point\": 284.65,\n            \"uvi\": 0,\n            \"clouds\": 99,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.14,\n            \"wind_deg\": 351,\n            \"wind_gust\": 2.23,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719115200,\n            \"temp\": 287.59,\n            \"feels_like\": 287.36,\n            \"pressure\": 1014,\n            \"humidity\": 87,\n            \"dew_point\": 285.08,\n            \"uvi\": 0.21,\n            \"clouds\": 99,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.8,\n            \"wind_deg\": 347,\n            \"wind_gust\": 2.53,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719118800,\n            \"temp\": 289.03,\n            \"feels_like\": 288.81,\n            \"pressure\": 1014,\n            \"humidity\": 82,\n            \"dew_point\": 285.58,\n            \"uvi\": 0.7,\n            \"clouds\": 99,\n            \"visibility\": 10000,\n            \"wind_speed\": 1.51,\n            \"wind_deg\": 355,\n            \"wind_gust\": 2.61,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719122400,\n            \"temp\": 290.17,\n            \"feels_like\": 289.96,\n            \"pressure\": 1014,\n            \"humidity\": 78,\n            \"dew_point\": 285.98,\n            \"uvi\": 1.61,\n            \"clouds\": 100,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.17,\n            \"wind_deg\": 341,\n            \"wind_gust\": 3.6,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719126000,\n            \"temp\": 292.13,\n            \"feels_like\": 291.91,\n            \"pressure\": 1015,\n            \"humidity\": 70,\n            \"dew_point\": 286.09,\n            \"uvi\": 2.98,\n            \"clouds\": 96,\n            \"visibility\": 10000,\n            \"wind_speed\": 2.58,\n            \"wind_deg\": 347,\n            \"wind_gust\": 4.11,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719129600,\n            \"temp\": 293.82,\n            \"feels_like\": 293.56,\n            \"pressure\": 1015,\n            \"humidity\": 62,\n            \"dew_point\": 286.05,\n            \"uvi\": 4.55,\n            \"clouds\": 92,\n            \"visibility\": 10000,\n            \"wind_speed\": 3.7,\n            \"wind_deg\": 19,\n            \"wind_gust\": 5.15,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719133200,\n            \"temp\": 294.66,\n            \"feels_like\": 294.41,\n            \"pressure\": 1015,\n            \"humidity\": 59,\n            \"dew_point\": 286.1,\n            \"uvi\": 6.04,\n            \"clouds\": 94,\n            \"visibility\": 10000,\n            \"wind_speed\": 4.46,\n            \"wind_deg\": 25,\n            \"wind_gust\": 4.92,\n            \"weather\": [\n                {\n                    \"id\": 804,\n                    \"main\": \"Clouds\",\n                    \"description\": \"overcast clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719136800,\n            \"temp\": 295.21,\n            \"feels_like\": 294.99,\n            \"pressure\": 1015,\n            \"humidity\": 58,\n            \"dew_point\": 286.4,\n            \"uvi\": 6.79,\n            \"clouds\": 83,\n            \"visibility\": 10000,\n            \"wind_speed\": 4.52,\n            \"wind_deg\": 24,\n            \"wind_gust\": 4.78,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719140400,\n            \"temp\": 295.82,\n            \"feels_like\": 295.63,\n            \"pressure\": 1015,\n            \"humidity\": 57,\n            \"dew_point\": 286.58,\n            \"uvi\": 7.3,\n            \"clouds\": 79,\n            \"visibility\": 10000,\n            \"wind_speed\": 4.24,\n            \"wind_deg\": 18,\n            \"wind_gust\": 4.54,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719144000,\n            \"temp\": 296.48,\n            \"feels_like\": 296.3,\n            \"pressure\": 1015,\n            \"humidity\": 55,\n            \"dew_point\": 286.59,\n            \"uvi\": 6.7,\n            \"clouds\": 70,\n            \"visibility\": 10000,\n            \"wind_speed\": 3.74,\n            \"wind_deg\": 19,\n            \"wind_gust\": 4.33,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719147600,\n            \"temp\": 296.92,\n            \"feels_like\": 296.76,\n            \"pressure\": 1015,\n            \"humidity\": 54,\n            \"dew_point\": 286.73,\n            \"uvi\": 3.76,\n            \"clouds\": 29,\n            \"visibility\": 10000,\n            \"wind_speed\": 3.11,\n            \"wind_deg\": 21,\n            \"wind_gust\": 3.73,\n            \"weather\": [\n                {\n                    \"id\": 802,\n                    \"main\": \"Clouds\",\n                    \"description\": \"scattered clouds\",\n                    \"icon\": \"03d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719151200,\n            \"temp\": 296.96,\n            \"feels_like\": 296.83,\n            \"pressure\": 1015,\n            \"humidity\": 55,\n            \"dew_point\": 287.11,\n            \"uvi\": 2.16,\n            \"clouds\": 63,\n            \"visibility\": 10000,\n            \"wind_speed\": 3.12,\n            \"wind_deg\": 15,\n            \"wind_gust\": 3.59,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        },\n        {\n            \"dt\": 1719154800,\n            \"temp\": 296.58,\n            \"feels_like\": 296.52,\n            \"pressure\": 1015,\n            \"humidity\": 59,\n            \"dew_point\": 287.79,\n            \"uvi\": 2.33,\n            \"clouds\": 75,\n            \"visibility\": 10000,\n            \"wind_speed\": 3.62,\n            \"wind_deg\": 14,\n            \"wind_gust\": 3.85,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"pop\": 0\n        }\n    ],\n    \"daily\": [\n        {\n            \"dt\": 1718964000,\n            \"sunrise\": 1718937835,\n            \"sunset\": 1718996354,\n            \"moonrise\": 1718997240,\n            \"moonset\": 1718933160,\n            \"moon_phase\": 0.48,\n            \"summary\": \"You can expect partly cloudy in the morning, with rain in the afternoon\",\n            \"temp\": {\n                \"day\": 300.45,\n                \"min\": 289.84,\n                \"max\": 302.19,\n                \"night\": 296.97,\n                \"eve\": 301.76,\n                \"morn\": 290.72\n            },\n            \"feels_like\": {\n                \"day\": 301.54,\n                \"night\": 297.39,\n                \"eve\": 304.56,\n                \"morn\": 290.52\n            },\n            \"pressure\": 1016,\n            \"humidity\": 59,\n            \"dew_point\": 291.61,\n            \"wind_speed\": 5.67,\n            \"wind_deg\": 189,\n            \"wind_gust\": 10.48,\n            \"weather\": [\n                {\n                    \"id\": 500,\n                    \"main\": \"Rain\",\n                    \"description\": \"light rain\",\n                    \"icon\": \"10d\"\n                }\n            ],\n            \"clouds\": 17,\n            \"pop\": 0.84,\n            \"rain\": 0.31,\n            \"uvi\": 7.48\n        },\n        {\n            \"dt\": 1719050400,\n            \"sunrise\": 1719024249,\n            \"sunset\": 1719082764,\n            \"moonrise\": 1719087060,\n            \"moonset\": 1719022680,\n            \"moon_phase\": 0.5,\n            \"summary\": \"Expect a day of partly cloudy with rain\",\n            \"temp\": {\n                \"day\": 294.98,\n                \"min\": 288.6,\n                \"max\": 297.49,\n                \"night\": 288.6,\n                \"eve\": 295.19,\n                \"morn\": 292.53\n            },\n            \"feels_like\": {\n                \"day\": 294.92,\n                \"night\": 288.52,\n                \"eve\": 295.17,\n                \"morn\": 293.03\n            },\n            \"pressure\": 1013,\n            \"humidity\": 65,\n            \"dew_point\": 287.84,\n            \"wind_speed\": 5.76,\n            \"wind_deg\": 337,\n            \"wind_gust\": 10.13,\n            \"weather\": [\n                {\n                    \"id\": 500,\n                    \"main\": \"Rain\",\n                    \"description\": \"light rain\",\n                    \"icon\": \"10d\"\n                }\n            ],\n            \"clouds\": 68,\n            \"pop\": 1,\n            \"rain\": 1.23,\n            \"uvi\": 6.9\n        },\n        {\n            \"dt\": 1719136800,\n            \"sunrise\": 1719110666,\n            \"sunset\": 1719169171,\n            \"moonrise\": 1719176040,\n            \"moonset\": 1719113160,\n            \"moon_phase\": 0.55,\n            \"summary\": \"There will be clear sky until morning, then partly cloudy\",\n            \"temp\": {\n                \"day\": 295.21,\n                \"min\": 286.51,\n                \"max\": 296.96,\n                \"night\": 290.18,\n                \"eve\": 295.7,\n                \"morn\": 287.59\n            },\n            \"feels_like\": {\n                \"day\": 294.99,\n                \"night\": 289.9,\n                \"eve\": 295.71,\n                \"morn\": 287.36\n            },\n            \"pressure\": 1015,\n            \"humidity\": 58,\n            \"dew_point\": 286.4,\n            \"wind_speed\": 4.52,\n            \"wind_deg\": 24,\n            \"wind_gust\": 8.24,\n            \"weather\": [\n                {\n                    \"id\": 803,\n                    \"main\": \"Clouds\",\n                    \"description\": \"broken clouds\",\n                    \"icon\": \"04d\"\n                }\n            ],\n            \"clouds\": 83,\n            \"pop\": 0,\n            \"uvi\": 7.3\n        },\n        {\n            \"dt\": 1719223200,\n            \"sunrise\": 1719197085,\n            \"sunset\": 1719255576,\n            \"moonrise\": 1719264300,\n            \"moonset\": 1719204300,\n            \"moon_phase\": 0.58,\n            \"summary\": \"Expect a day of partly cloudy with clear spells\",\n            \"temp\": {\n                \"day\": 294.05,\n                \"min\": 287.25,\n                \"max\": 294.72,\n                \"night\": 287.74,\n                \"eve\": 293.76,\n                \"morn\": 287.25\n            },\n            \"feels_like\": {\n                \"day\": 293.81,\n                \"night\": 287.55,\n                \"eve\": 293.63,\n                \"morn\": 286.99\n            },\n            \"pressure\": 1018,\n            \"humidity\": 62,\n            \"dew_point\": 286.3,\n            \"wind_speed\": 6.51,\n            \"wind_deg\": 37,\n            \"wind_gust\": 9.62,\n            \"weather\": [\n                {\n                    \"id\": 801,\n                    \"main\": \"Clouds\",\n                    \"description\": \"few clouds\",\n                    \"icon\": \"02d\"\n                }\n            ],\n            \"clouds\": 17,\n            \"pop\": 0,\n            \"uvi\": 5.29\n        },\n        {\n            \"dt\": 1719309600,\n            \"sunrise\": 1719283507,\n            \"sunset\": 1719341978,\n            \"moonrise\": 1719352080,\n            \"moonset\": 1719295860,\n            \"moon_phase\": 0.62,\n            \"summary\": \"The day will start with clear sky through the late morning hours, transitioning to partly cloudy\",\n            \"temp\": {\n                \"day\": 296.55,\n                \"min\": 285.91,\n                \"max\": 298.66,\n                \"night\": 290.94,\n                \"eve\": 298.66,\n                \"morn\": 285.91\n            },\n            \"feels_like\": {\n                \"day\": 296.46,\n                \"night\": 291.02,\n                \"eve\": 298.73,\n                \"morn\": 285.59\n            },\n            \"pressure\": 1015,\n            \"humidity\": 58,\n            \"dew_point\": 287.61,\n            \"wind_speed\": 3.43,\n            \"wind_deg\": 43,\n            \"wind_gust\": 5.15,\n            \"weather\": [\n                {\n                    \"id\": 801,\n                    \"main\": \"Clouds\",\n                    \"description\": \"few clouds\",\n                    \"icon\": \"02d\"\n                }\n            ],\n            \"clouds\": 23,\n            \"pop\": 0,\n            \"uvi\": 8.01\n        },\n        {\n            \"dt\": 1719396000,\n            \"sunrise\": 1719369932,\n            \"sunset\": 1719428377,\n            \"moonrise\": 0,\n            \"moonset\": 1719387420,\n            \"moon_phase\": 0.66,\n            \"summary\": \"Expect a day of partly cloudy with rain\",\n            \"temp\": {\n                \"day\": 295.84,\n                \"min\": 288.6,\n                \"max\": 299.27,\n                \"night\": 291.44,\n                \"eve\": 299.27,\n                \"morn\": 288.6\n            },\n            \"feels_like\": {\n                \"day\": 295.99,\n                \"night\": 291.86,\n                \"eve\": 299.27,\n                \"morn\": 288.58\n            },\n            \"pressure\": 1012,\n            \"humidity\": 70,\n            \"dew_point\": 289.77,\n            \"wind_speed\": 3.6,\n            \"wind_deg\": 27,\n            \"wind_gust\": 3.07,\n            \"weather\": [\n                {\n                    \"id\": 501,\n                    \"main\": \"Rain\",\n                    \"description\": \"moderate rain\",\n                    \"icon\": \"10d\"\n                }\n            ],\n            \"clouds\": 100,\n            \"pop\": 1,\n            \"rain\": 11.84,\n            \"uvi\": 9\n        },\n        {\n            \"dt\": 1719482400,\n            \"sunrise\": 1719456359,\n            \"sunset\": 1719514773,\n            \"moonrise\": 1719439560,\n            \"moonset\": 1719478860,\n            \"moon_phase\": 0.7,\n            \"summary\": \"Expect a day of partly cloudy with rain\",\n            \"temp\": {\n                \"day\": 297.31,\n                \"min\": 290.21,\n                \"max\": 300.26,\n                \"night\": 292.89,\n                \"eve\": 300.14,\n                \"morn\": 290.23\n            },\n            \"feels_like\": {\n                \"day\": 297.5,\n                \"night\": 293.22,\n                \"eve\": 301.01,\n                \"morn\": 290.47\n            },\n            \"pressure\": 1015,\n            \"humidity\": 66,\n            \"dew_point\": 290.2,\n            \"wind_speed\": 3.06,\n            \"wind_deg\": 197,\n            \"wind_gust\": 3.38,\n            \"weather\": [\n                {\n                    \"id\": 500,\n                    \"main\": \"Rain\",\n                    \"description\": \"light rain\",\n                    \"icon\": \"10d\"\n                }\n            ],\n            \"clouds\": 100,\n            \"pop\": 0.8,\n            \"rain\": 0.24,\n            \"uvi\": 9\n        },\n        {\n            \"dt\": 1719568800,\n            \"sunrise\": 1719542788,\n            \"sunset\": 1719601167,\n            \"moonrise\": 1719526920,\n            \"moonset\": 1719570180,\n            \"moon_phase\": 0.75,\n            \"summary\": \"Expect a day of partly cloudy with rain\",\n            \"temp\": {\n                \"day\": 299.39,\n                \"min\": 290.94,\n                \"max\": 300.52,\n                \"night\": 291.96,\n                \"eve\": 300.52,\n                \"morn\": 290.94\n            },\n            \"feels_like\": {\n                \"day\": 299.39,\n                \"night\": 292.09,\n                \"eve\": 301.15,\n                \"morn\": 291.2\n            },\n            \"pressure\": 1014,\n            \"humidity\": 58,\n            \"dew_point\": 290.21,\n            \"wind_speed\": 6.92,\n            \"wind_deg\": 168,\n            \"wind_gust\": 10.58,\n            \"weather\": [\n                {\n                    \"id\": 500,\n                    \"main\": \"Rain\",\n                    \"description\": \"light rain\",\n                    \"icon\": \"10d\"\n                }\n            ],\n            \"clouds\": 1,\n            \"pop\": 0.24,\n            \"rain\": 0.12,\n            \"uvi\": 9\n        }\n    ],\n    \"alerts\": [\n        {\n            \"sender_name\": \"ČHMÚ, Šimandl\",\n            \"event\": \"Very Strong Thunderstorms\",\n            \"start\": 1718989200,\n            \"end\": 1719028799,\n            \"description\": \"Very severe thunderstorms may be accompanied by wind gusts around 90 km/h, larger hails (over 2 cm) and torrential rain with short-term totals up to 50 mm. We recommend following the FFI app: https://tinyurl.com/FFICZ\",\n            \"tags\": [\n                \"Thunderstorm\"\n            ]\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Přehled o počasí",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?lat=49.835556&lon=18.2925&appid=8b222900a28e1250420c1d6d8786aec5",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "49.835556"
+						},
+						{
+							"key": "lon",
+							"value": "18.2925"
+						},
+						{
+							"key": "appid",
+							"value": "8b222900a28e1250420c1d6d8786aec5"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.openweathermap.org/data/2.5/weather?lat=49.835556&lon=18.2925&appid=8b222900a28e1250420c1d6d8786aec5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.openweathermap.org/data/2.5/weather?lat=49.835556&lon=18.2925&appid=8b222900a28e1250420c1d6d8786aec5",
+							"protocol": "https",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "49.835556"
+								},
+								{
+									"key": "lon",
+									"value": "18.2925"
+								},
+								{
+									"key": "appid",
+									"value": "8b222900a28e1250420c1d6d8786aec5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "openresty"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Jun 2024 17:21:58 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "518"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Cache-Key",
+							"value": "/data/2.5/weather?lat=49.84&lon=18.29"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"coord\": {\n        \"lon\": 18.2925,\n        \"lat\": 49.8356\n    },\n    \"weather\": [\n        {\n            \"id\": 801,\n            \"main\": \"Clouds\",\n            \"description\": \"few clouds\",\n            \"icon\": \"02d\"\n        }\n    ],\n    \"base\": \"stations\",\n    \"main\": {\n        \"temp\": 302.11,\n        \"feels_like\": 303.82,\n        \"temp_min\": 300.65,\n        \"temp_max\": 303.01,\n        \"pressure\": 1010,\n        \"humidity\": 58,\n        \"sea_level\": 1010,\n        \"grnd_level\": 983\n    },\n    \"visibility\": 10000,\n    \"wind\": {\n        \"speed\": 1.97,\n        \"deg\": 194,\n        \"gust\": 4.32\n    },\n    \"clouds\": {\n        \"all\": 17\n    },\n    \"dt\": 1718990518,\n    \"sys\": {\n        \"type\": 2,\n        \"id\": 47767,\n        \"country\": \"CZ\",\n        \"sunrise\": 1718937504,\n        \"sunset\": 1718996333\n    },\n    \"timezone\": 7200,\n    \"id\": 3068799,\n    \"name\": \"Ostrava\",\n    \"cod\": 200\n}"
+				}
+			]
+		},
+		{
+			"name": "Denni agregace",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/3.0/onecall/day_summary?appid=8b222900a28e1250420c1d6d8786aec5&lat=48.806114&lon=16.969637&date=2024-06-21",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"3.0",
+						"onecall",
+						"day_summary"
+					],
+					"query": [
+						{
+							"key": "appid",
+							"value": "8b222900a28e1250420c1d6d8786aec5"
+						},
+						{
+							"key": "lat",
+							"value": "48.806114"
+						},
+						{
+							"key": "lon",
+							"value": "16.969637"
+						},
+						{
+							"key": "date",
+							"value": "2024-06-21"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.openweathermap.org/data/3.0/onecall/day_summary?appid=8b222900a28e1250420c1d6d8786aec5&lat=48.806114&lon=16.969637&date=2021-06-24",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.openweathermap.org/data/3.0/onecall/day_summary?appid=8b222900a28e1250420c1d6d8786aec5&lat=48.806114&lon=16.969637&date=2024-06-21",
+							"protocol": "https",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"3.0",
+								"onecall",
+								"day_summary"
+							],
+							"query": [
+								{
+									"key": "appid",
+									"value": "8b222900a28e1250420c1d6d8786aec5"
+								},
+								{
+									"key": "lat",
+									"value": "48.806114"
+								},
+								{
+									"key": "lon",
+									"value": "16.969637"
+								},
+								{
+									"key": "date",
+									"value": "2024-06-21"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "openresty"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Jun 2024 17:03:20 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "372"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Cache-Key",
+							"value": "/data/3.0/onecall/day_summary?date=2024-06-21&lat=48.81&lon=16.97"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"lat\": 48.806114,\n    \"lon\": 16.969637,\n    \"tz\": \"+02:00\",\n    \"date\": \"2024-06-21\",\n    \"units\": \"standard\",\n    \"cloud_cover\": {\n        \"afternoon\": 29.7\n    },\n    \"humidity\": {\n        \"afternoon\": 59.02\n    },\n    \"precipitation\": {\n        \"total\": 0.06\n    },\n    \"temperature\": {\n        \"min\": 290.42,\n        \"max\": 302.82,\n        \"afternoon\": 300.64,\n        \"night\": 291.88,\n        \"evening\": 301.92,\n        \"morning\": 291.1\n    },\n    \"pressure\": {\n        \"afternoon\": 1016.06\n    },\n    \"wind\": {\n        \"max\": {\n            \"speed\": 7.45,\n            \"direction\": 125.88\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "https://api.openweathermap.org/data/3.0/onecall/day_summary?lat=49.835556&lon=18.2925&date=2021-06-24&appid=8b222900a28e1250420c1d6d8786aec5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/3.0/onecall/day_summary?lat=49.835556&lon=18.2925&date=2021-06-24&appid=8b222900a28e1250420c1d6d8786aec5",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"3.0",
+						"onecall",
+						"day_summary"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "49.835556"
+						},
+						{
+							"key": "lon",
+							"value": "18.2925"
+						},
+						{
+							"key": "date",
+							"value": "2021-06-24"
+						},
+						{
+							"key": "appid",
+							"value": "8b222900a28e1250420c1d6d8786aec5"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.openweathermap.org/data/3.0/onecall/day_summary?lat=49.835556&lon=18.2925&date=2021-06-24&appid=8b222900a28e1250420c1d6d8786aec5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.openweathermap.org/data/3.0/onecall/day_summary?lat=49.835556&lon=18.2925&date=2024-06-21&appid=8b222900a28e1250420c1d6d8786aec5",
+							"protocol": "https",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"3.0",
+								"onecall",
+								"day_summary"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "49.835556"
+								},
+								{
+									"key": "lon",
+									"value": "18.2925"
+								},
+								{
+									"key": "date",
+									"value": "2024-06-21"
+								},
+								{
+									"key": "appid",
+									"value": "8b222900a28e1250420c1d6d8786aec5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "openresty"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Jun 2024 17:22:28 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "371"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Cache-Key",
+							"value": "/data/3.0/onecall/day_summary?date=2024-06-21&lat=49.84&lon=18.29"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"lat\": 49.835556,\n    \"lon\": 18.2925,\n    \"tz\": \"+02:00\",\n    \"date\": \"2024-06-21\",\n    \"units\": \"standard\",\n    \"cloud_cover\": {\n        \"afternoon\": 5.94\n    },\n    \"humidity\": {\n        \"afternoon\": 56.33\n    },\n    \"precipitation\": {\n        \"total\": 0.39\n    },\n    \"temperature\": {\n        \"min\": 288.65,\n        \"max\": 304.28,\n        \"afternoon\": 300.29,\n        \"night\": 289.48,\n        \"evening\": 303.23,\n        \"morning\": 290.03\n    },\n    \"pressure\": {\n        \"afternoon\": 1016.41\n    },\n    \"wind\": {\n        \"max\": {\n            \"speed\": 3.07,\n            \"direction\": 214.72\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Aktual, minut., hodinove, 48h, nastavení datumu",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/3.0/onecall/day_summary?lat=49.835556&lon=18.2925&date=2024-06-20&appid=8b222900a28e1250420c1d6d8786aec5",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"3.0",
+						"onecall",
+						"day_summary"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "49.835556"
+						},
+						{
+							"key": "lon",
+							"value": "18.2925"
+						},
+						{
+							"key": "date",
+							"value": "2024-06-20"
+						},
+						{
+							"key": "appid",
+							"value": "8b222900a28e1250420c1d6d8786aec5"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.openweathermap.org/data/3.0/onecall/day_summary?lat=49.835556&lon=18.2925&date=2024-06-20&appid=8b222900a28e1250420c1d6d8786aec5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.openweathermap.org/data/3.0/onecall/day_summary?lat=49.835556&lon=18.2925&date=2024-06-20&appid=8b222900a28e1250420c1d6d8786aec5",
+							"protocol": "https",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"3.0",
+								"onecall",
+								"day_summary"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "49.835556"
+								},
+								{
+									"key": "lon",
+									"value": "18.2925"
+								},
+								{
+									"key": "date",
+									"value": "2024-06-20"
+								},
+								{
+									"key": "appid",
+									"value": "8b222900a28e1250420c1d6d8786aec5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "openresty"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Jun 2024 17:22:37 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "366"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Cache-Key",
+							"value": "/data/3.0/onecall/day_summary?date=2024-06-20&lat=49.84&lon=18.29"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"lat\": 49.835556,\n    \"lon\": 18.2925,\n    \"tz\": \"+02:00\",\n    \"date\": \"2024-06-20\",\n    \"units\": \"standard\",\n    \"cloud_cover\": {\n        \"afternoon\": 75\n    },\n    \"humidity\": {\n        \"afternoon\": 67\n    },\n    \"precipitation\": {\n        \"total\": 0\n    },\n    \"temperature\": {\n        \"min\": 288.12,\n        \"max\": 296.29,\n        \"afternoon\": 293.46,\n        \"night\": 290.67,\n        \"evening\": 296.29,\n        \"morning\": 288.35\n    },\n    \"pressure\": {\n        \"afternoon\": 1023\n    },\n    \"wind\": {\n        \"max\": {\n            \"speed\": 4.63,\n            \"direction\": 20\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Udaje o počasí (časové razítko)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/3.0/onecall/timemachine?lat=49.835556&lon=18.2925&dt=1718956800&appid=8b222900a28e1250420c1d6d8786aec5",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"3.0",
+						"onecall",
+						"timemachine"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "49.835556"
+						},
+						{
+							"key": "lon",
+							"value": "18.2925"
+						},
+						{
+							"key": "dt",
+							"value": "1718956800"
+						},
+						{
+							"key": "appid",
+							"value": "8b222900a28e1250420c1d6d8786aec5"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.openweathermap.org/data/3.0/onecall/timemachine?lat=49.835556&lon=18.2925&dt=1718956800&appid=8b222900a28e1250420c1d6d8786aec5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.openweathermap.org/data/3.0/onecall/timemachine?lat=49.835556&lon=18.2925&dt=1718956800&appid=8b222900a28e1250420c1d6d8786aec5",
+							"protocol": "https",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"3.0",
+								"onecall",
+								"timemachine"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "49.835556"
+								},
+								{
+									"key": "lon",
+									"value": "18.2925"
+								},
+								{
+									"key": "dt",
+									"value": "1718956800"
+								},
+								{
+									"key": "appid",
+									"value": "8b222900a28e1250420c1d6d8786aec5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "openresty"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 20 Jun 2024 17:46:43 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "398"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Cache-Key",
+							"value": "/data/3.0/onecall/timemachine?dt=1718956800&lat=49.84&lon=18.29"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"lat\": 49.8356,\n    \"lon\": 18.2925,\n    \"timezone\": \"Europe/Prague\",\n    \"timezone_offset\": 7200,\n    \"data\": [\n        {\n            \"dt\": 1718956800,\n            \"sunrise\": 1718937504,\n            \"sunset\": 1718996333,\n            \"temp\": 297.84,\n            \"feels_like\": 297.96,\n            \"pressure\": 1017,\n            \"humidity\": 61,\n            \"dew_point\": 289.82,\n            \"uvi\": 4.84,\n            \"clouds\": 5,\n            \"visibility\": 10000,\n            \"wind_speed\": 0.55,\n            \"wind_deg\": 195,\n            \"wind_gust\": 1.94,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ]\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Geokodování",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.openweathermap.org/geo/1.0/reverse?lat=49.835556&lon=18.2925&appid=8b222900a28e1250420c1d6d8786aec5",
+					"protocol": "http",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"geo",
+						"1.0",
+						"reverse"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "49.835556"
+						},
+						{
+							"key": "lon",
+							"value": "18.2925"
+						},
+						{
+							"key": "appid",
+							"value": "8b222900a28e1250420c1d6d8786aec5"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Geokodování",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://api.openweathermap.org/geo/1.0/reverse?lat=49.835556&lon=18.2925&appid=8b222900a28e1250420c1d6d8786aec5",
+							"protocol": "http",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"geo",
+								"1.0",
+								"reverse"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "49.835556"
+								},
+								{
+									"key": "lon",
+									"value": "18.2925"
+								},
+								{
+									"key": "appid",
+									"value": "8b222900a28e1250420c1d6d8786aec5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "openresty"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Jun 2024 17:22:56 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "681"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Cache-Key",
+							"value": "/geo/1.0/reverse?lat=49.84&lon=18.29"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"name\": \"Ostrava\",\n        \"local_names\": {\n            \"cs\": \"Ostrava\",\n            \"be\": \"Острава\",\n            \"he\": \"אוסטרבה\",\n            \"uk\": \"Острава\",\n            \"pl\": \"Ostrawa\",\n            \"el\": \"Οστράβα\",\n            \"bg\": \"Острава\",\n            \"ko\": \"오스트라바\",\n            \"tg\": \"Острава\",\n            \"ja\": \"オストラヴァ\",\n            \"la\": \"Ostravia\",\n            \"fa\": \"استراوا\",\n            \"ur\": \"اوستراوا\",\n            \"mr\": \"ओस्त्राव्हा\",\n            \"ru\": \"Острава\",\n            \"th\": \"ออสตราวา\",\n            \"ka\": \"ოსტრავა\",\n            \"ar\": \"أوسترافا\",\n            \"zh\": \"俄斯特拉发\",\n            \"kk\": \"Острава\",\n            \"ce\": \"Острава\",\n            \"mk\": \"Острава\",\n            \"sr\": \"Острава\",\n            \"de\": \"Ostrau\",\n            \"ps\": \"اوستراوا\"\n        },\n        \"lat\": 49.8349139,\n        \"lon\": 18.2820084,\n        \"country\": \"CZ\",\n        \"state\": \"Moravia-Silesia\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "vICEJAZYČNÁ PODPORA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&lang={lang}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"3.0",
+						"onecall"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "{lat}"
+						},
+						{
+							"key": "lon",
+							"value": "{lon}"
+						},
+						{
+							"key": "lang",
+							"value": "{lang}"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "vICEJAZYČNÁ PODPORA",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&lang={lang}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"3.0",
+								"onecall"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "{lat}"
+								},
+								{
+									"key": "lon",
+									"value": "{lon}"
+								},
+								{
+									"key": "lang",
+									"value": "{lang}"
+								}
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "openresty"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 21 Jun 2024 17:19:16 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "338"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Cache-Key",
+							"value": "/data/3.0/onecall?lang={lang}&lat=&lon="
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"cod\": 401,\n    \"message\": \"Please note that using One Call 3.0 requires a separate subscription to the One Call by Call plan. Learn more here https://openweathermap.org/price. If you have a valid subscription to the One Call by Call plan, but still receive this error, then please see https://openweathermap.org/faq#error401 for more info.\"\n}"
+				}
+			]
+		}
+	]
+}
