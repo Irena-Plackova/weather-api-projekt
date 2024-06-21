@@ -1,0 +1,532 @@
+{
+	"info": {
+		"_postman_id": "b68fb5ba-51c9-4eab-8c66-cec7e35ed7a0",
+		"name": "API weathers ZD, ZŠ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34145623",
+		"_collection_link": "https://interstellar-space-73680.postman.co/workspace/a6b919d1-d196-4fc4-b1c8-193a5bee4a10/collection/34145623-b68fb5ba-51c9-4eab-8c66-cec7e35ed7a0?action=share&source=collection_link&creator=34145623"
+	},
+	"item": [
+		{
+			"name": "ZD,ZŠ, DESETINNE ČÍSLO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&appid=8b222900a28e1250420c1d6d8786aec5",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"3.0",
+						"onecall"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "33.44"
+						},
+						{
+							"key": "lon",
+							"value": "-94.04"
+						},
+						{
+							"key": "appid",
+							"value": "8b222900a28e1250420c1d6d8786aec5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.openweathermap.org/data/3.0/onecall?lat=49,32&lon=17,56&appid=8b222900a28e1250420c1d6d8786aec5",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "8b222900a28e1250420c1d6d8786aec5",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/3.0/onecall?lat=49,32&lon=17,56&appid=8b222900a28e1250420c1d6d8786aec5",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"3.0",
+						"onecall"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "49,32"
+						},
+						{
+							"key": "lon",
+							"value": "17,56"
+						},
+						{
+							"key": "appid",
+							"value": "8b222900a28e1250420c1d6d8786aec5"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.openweathermap.org/data/3.0/onecall/timemachine?lat=49.835556&lon=18.2925&dt=1718956800&appid=8b222900a28e1250420c1d6d8786aec5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.openweathermap.org/data/3.0/onecall/timemachine?lat=49.835556&lon=18.2925&dt=1718956800&appid=8b222900a28e1250420c1d6d8786aec5",
+							"protocol": "https",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"3.0",
+								"onecall",
+								"timemachine"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "49.835556"
+								},
+								{
+									"key": "lon",
+									"value": "18.2925"
+								},
+								{
+									"key": "dt",
+									"value": "1718956800"
+								},
+								{
+									"key": "appid",
+									"value": "8b222900a28e1250420c1d6d8786aec5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "openresty"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 20 Jun 2024 17:46:43 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "398"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Cache-Key",
+							"value": "/data/3.0/onecall/timemachine?dt=1718956800&lat=49.84&lon=18.29"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"lat\": 49.8356,\n    \"lon\": 18.2925,\n    \"timezone\": \"Europe/Prague\",\n    \"timezone_offset\": 7200,\n    \"data\": [\n        {\n            \"dt\": 1718956800,\n            \"sunrise\": 1718937504,\n            \"sunset\": 1718996333,\n            \"temp\": 297.84,\n            \"feels_like\": 297.96,\n            \"pressure\": 1017,\n            \"humidity\": 61,\n            \"dew_point\": 289.82,\n            \"uvi\": 4.84,\n            \"clouds\": 5,\n            \"visibility\": 10000,\n            \"wind_speed\": 0.55,\n            \"wind_deg\": 195,\n            \"wind_gust\": 1.94,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ]\n        }\n    ]\n}"
+				},
+				{
+					"name": "https://api.openweathermap.org/data/3.0/onecall/timemachine?lat=49.835556&lon=18.2925&dt=1718956800&appid=8b222900a28e1250420c1d6d8786aec5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.openweathermap.org/data/3.0/onecall/timemachine?lat=49.835556&lon=18.2925&dt=1718956800&appid=8b222900a28e1250420c1d6d8786aec5",
+							"protocol": "https",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"3.0",
+								"onecall",
+								"timemachine"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "49.835556"
+								},
+								{
+									"key": "lon",
+									"value": "18.2925"
+								},
+								{
+									"key": "dt",
+									"value": "1718956800"
+								},
+								{
+									"key": "appid",
+									"value": "8b222900a28e1250420c1d6d8786aec5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "openresty"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 20 Jun 2024 17:46:43 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "398"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Cache-Key",
+							"value": "/data/3.0/onecall/timemachine?dt=1718956800&lat=49.84&lon=18.29"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"lat\": 49.8356,\n    \"lon\": 18.2925,\n    \"timezone\": \"Europe/Prague\",\n    \"timezone_offset\": 7200,\n    \"data\": [\n        {\n            \"dt\": 1718956800,\n            \"sunrise\": 1718937504,\n            \"sunset\": 1718996333,\n            \"temp\": 297.84,\n            \"feels_like\": 297.96,\n            \"pressure\": 1017,\n            \"humidity\": 61,\n            \"dew_point\": 289.82,\n            \"uvi\": 4.84,\n            \"clouds\": 5,\n            \"visibility\": 10000,\n            \"wind_speed\": 0.55,\n            \"wind_deg\": 195,\n            \"wind_gust\": 1.94,\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01d\"\n                }\n            ]\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Přehled o počasí",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?lat=49.835556&lon=18.2925&appid=8b222900a28e1250420c1d6d8786aec5",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "49.835556"
+						},
+						{
+							"key": "lon",
+							"value": "18.2925"
+						},
+						{
+							"key": "appid",
+							"value": "8b222900a28e1250420c1d6d8786aec5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Denni agregace",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/3.0/onecall/day_summary?appid=8b222900a28e1250420c1d6d8786aec5&lat=48.806114&lon=16.969637&date=2021-06-24",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"3.0",
+						"onecall",
+						"day_summary"
+					],
+					"query": [
+						{
+							"key": "appid",
+							"value": "8b222900a28e1250420c1d6d8786aec5"
+						},
+						{
+							"key": "lat",
+							"value": "48.806114"
+						},
+						{
+							"key": "lon",
+							"value": "16.969637"
+						},
+						{
+							"key": "date",
+							"value": "2021-06-24"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.openweathermap.org/data/3.0/onecall/day_summary?lat=49.835556&lon=18.2925&date=2021-06-24&appid=8b222900a28e1250420c1d6d8786aec5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/3.0/onecall/day_summary?lat=49.835556&lon=18.2925&date=2021-06-24&appid=8b222900a28e1250420c1d6d8786aec5",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"3.0",
+						"onecall",
+						"day_summary"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "49.835556"
+						},
+						{
+							"key": "lon",
+							"value": "18.2925"
+						},
+						{
+							"key": "date",
+							"value": "2021-06-24"
+						},
+						{
+							"key": "appid",
+							"value": "8b222900a28e1250420c1d6d8786aec5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Aktual, minut., hodinove, 48h, nastavení datumu",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/3.0/onecall/day_summary?lat=49.835556&lon=18.2925&date=2024-06-20&appid=8b222900a28e1250420c1d6d8786aec5",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"3.0",
+						"onecall",
+						"day_summary"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "49.835556"
+						},
+						{
+							"key": "lon",
+							"value": "18.2925"
+						},
+						{
+							"key": "date",
+							"value": "2024-06-20"
+						},
+						{
+							"key": "appid",
+							"value": "8b222900a28e1250420c1d6d8786aec5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Udaje o počasí (časové razítko)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/3.0/onecall/timemachine?lat=49.835556&lon=18.2925&dt=1718956800&appid=8b222900a28e1250420c1d6d8786aec5",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"3.0",
+						"onecall",
+						"timemachine"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "49.835556"
+						},
+						{
+							"key": "lon",
+							"value": "18.2925"
+						},
+						{
+							"key": "dt",
+							"value": "1718956800"
+						},
+						{
+							"key": "appid",
+							"value": "8b222900a28e1250420c1d6d8786aec5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Geokodování",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.openweathermap.org/geo/1.0/reverse?lat=49.835556&lon=18.2925&appid=8b222900a28e1250420c1d6d8786aec5",
+					"protocol": "http",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"geo",
+						"1.0",
+						"reverse"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "49.835556"
+						},
+						{
+							"key": "lon",
+							"value": "18.2925"
+						},
+						{
+							"key": "appid",
+							"value": "8b222900a28e1250420c1d6d8786aec5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vICEJAZYČNÁ PODPORA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&lang={lang}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"3.0",
+						"onecall"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "{lat}"
+						},
+						{
+							"key": "lon",
+							"value": "{lon}"
+						},
+						{
+							"key": "lang",
+							"value": "{lang}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
